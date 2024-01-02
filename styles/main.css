@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+:root {
+  --mainTextColor-light: #000;
+  --secondaryTextColor-light: rgb(51 51 51);
+  --mainLinkColor-light: #0da2b8;
+  --mainBorderColor-light: rgb(218, 218, 218);
+  --mainBgColor-light: rgb(249, 250, 251);
+
+  --mainTextColor-dark: #fff;
+  --secondaryTextColor-dark: #adb0b1;
+  --mainLinkColor-dark: rgb(30, 190, 214);
+  --mainBorderColor-dark: #2b3031;
+  --mainBgColor-dark: #131415;
+
+  --mainTextColor: var(--mainTextColor-dark);
+  --secondaryTextColor: var(--secondaryTextColor-dark);
+  --mainLinkColor: var(--mainLinkColor-dark);
+  --mainBorderColor: var(--mainBorderColor-dark);
+  --mainBgColor: var(--mainBgColor-dark);
+}
+
+* {
+  font-family: "Poppins";
+  line-height: 1.5em;
+  color: var(--mainTextColor);
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--mainBgColor);
+}
+
+li,
+p,
+span {
+  color: var(--secondaryTextColor);
+}
+a {
+  text-decoration: none;
+  color: var(--mainLinkColor);
+  font-size: 500;
+}
+
+#container--main {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.section--page {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#wrapper--hero {
+  display: flex;
+  align-items: center;
+  gap: 4em;
+}
+
+#profile-pic{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#user-name{
+    font-size: 2em;
+    line-height: 1em;
+}
+
+#bio{
+    font-weight: 300;
+}
+
+#social--list{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 3em;
+    flex-wrap: wrap;
+}
+
+#social--list a{
+    font-size: 0.9em;
+    color:var(--secondaryTextColor);
+}
+
+#social--list a:hover{
+    color:var(--mainLinkColor);
+    transition: 0.3s;
+}
+
+#qualification--list{
+    list-style: none;
+}
+
+#wrapper--techstack__items{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.9em;
+    gap: 1em;
+}
+
+#card--techstack{
+    border: 1px solid var(--mainBorderColor);
+    border-radius: 5px;
+    padding: 0.5em 1em;
+}
