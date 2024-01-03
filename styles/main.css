@@ -129,7 +129,8 @@ a {
         font-weight: 200;
     }
     #email{
-        font-size: 150;
+        font-size: 0.9em;
+        font-weight: 100;
     }
 
     #social--list{
