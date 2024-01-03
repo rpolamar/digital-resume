@@ -31,7 +31,6 @@ body {
   background-color: var(--mainBgColor);
 }
 
-li,
 p,
 span {
   color: var(--secondaryTextColor);
@@ -42,6 +41,10 @@ a {
   font-size: 500;
 }
 
+li{
+    color: var(--secondaryTextColor);
+    margin: 15px 0;
+}
 #container--main {
   max-width: 700px;
   margin: 0 auto;
