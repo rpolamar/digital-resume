@@ -72,6 +72,9 @@ a {
 #bio{
     font-weight: 300;
 }
+#email{
+    font-size: 300;
+}
 
 #social--list{
     display: flex;
@@ -125,6 +128,10 @@ a {
     #bio{
         font-weight: 200;
     }
+    #email{
+        font-size: 150;
+    }
+
     #social--list{
         display: flex;
         justify-content: flex-start;
