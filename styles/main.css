@@ -139,7 +139,7 @@ li{
     #social--list{
         display: flex;
         justify-content: flex-start;
-        column-gap: 1em;
+        column-gap: 0.85em;
         flex-wrap: wrap;
         font-size: 0.9em;
     }
