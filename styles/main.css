@@ -43,7 +43,7 @@ a {
 
 li{
     color: var(--secondaryTextColor);
-    margin: 15px 0;
+    margin: 20px 0;
 }
 #container--main {
   max-width: 700px;
