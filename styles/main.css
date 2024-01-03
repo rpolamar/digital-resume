@@ -110,4 +110,23 @@ a {
     body {
       background-color: lightblue;
     }
+    
+    #wrapper--hero {
+        display: flex;
+        align-items: center;
+        gap: 2em;
+    }
+    #profile-pic{
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+    }
+    #user-name{
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+    
+    #bio{
+        font-weight: 200;
+    }
   }
