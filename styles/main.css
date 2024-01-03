@@ -137,6 +137,6 @@ a {
         justify-content: flex-start;
         column-gap: 1em;
         flex-wrap: wrap;
-        font-size: 300;
+        font-size: 0.9em;
     }
   }
