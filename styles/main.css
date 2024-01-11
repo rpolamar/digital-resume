@@ -112,6 +112,16 @@ li {
   border-radius: 5px;
   padding: 0.5em 1em;
 }
+.line-break {
+    color: var(--mainBorderColor);
+    height: 1px;
+  }
+  .card--project {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid var(--mainBorderColor);
+  }
+
 @media only screen and (max-width: 600px) {
   #wrapper--hero {
     display: flex;
@@ -148,7 +158,7 @@ li {
   }
 
   .line-break {
-    background-color: var(--mainBorderColor);
+    color: var(--mainBorderColor);
     height: 1px;
   }
   .card--project {
