@@ -143,4 +143,9 @@ li{
         flex-wrap: wrap;
         font-size: 0.9em;
     }
+    
+.line-break{
+    background-color: var(--mainBorderColor);
+    height: 1px;
+}
   }
