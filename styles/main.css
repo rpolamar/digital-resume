@@ -41,9 +41,9 @@ a {
   font-size: 500;
 }
 
-li{
-    color: var(--secondaryTextColor);
-    margin: 20px 0;
+li {
+  color: var(--secondaryTextColor);
+  margin: 20px 0;
 }
 #container--main {
   max-width: 700px;
@@ -61,94 +61,99 @@ li{
   gap: 4em;
 }
 
-#profile-pic{
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+#profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
 }
 
-#user-name{
-    font-size: 2em;
-    line-height: 1em;
+#user-name {
+  font-size: 2em;
+  line-height: 1em;
 }
 
-#bio{
-    font-weight: 300;
+#bio {
+  font-weight: 300;
 }
-#email{
-    font-size: 300;
-}
-
-#social--list{
-    display: flex;
-    justify-content: flex-start;
-    column-gap: 3em;
-    flex-wrap: wrap;
+#email {
+  font-size: 300;
 }
 
-#social--list a{
-    font-size: 0.9em;
-    color:var(--secondaryTextColor);
+#social--list {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 3em;
+  flex-wrap: wrap;
 }
 
-#social--list a:hover{
-    color:var(--mainLinkColor);
-    transition: 0.3s;
+#social--list a {
+  font-size: 0.9em;
+  color: var(--secondaryTextColor);
 }
 
-#qualification--list{
-    list-style: none;
+#social--list a:hover {
+  color: var(--mainLinkColor);
+  transition: 0.3s;
 }
 
-#wrapper--techstack__items{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 0.9em;
-    gap: 1em;
+#qualification--list {
+  list-style: none;
 }
 
-#card--techstack{
-    border: 1px solid var(--mainBorderColor);
-    border-radius: 5px;
-    padding: 0.5em 1em;
+#wrapper--techstack__items {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9em;
+  gap: 1em;
+}
+
+#card--techstack {
+  border: 1px solid var(--mainBorderColor);
+  border-radius: 5px;
+  padding: 0.5em 1em;
 }
 @media only screen and (max-width: 600px) {
-    #wrapper--hero {
-        display: flex;
-        align-items: center;
-        gap: 2em;
-    }
-    #profile-pic{
-        border-radius: 50%;
-        width: 100px;
-        height: 100px;
-    }
-    #user-name{
-        font-size: 1.5em;
-        line-height: 1.2em;
-    }
-    
-    #bio{
-        font-weight: 200;
-    }
-    #education{
-        font-weight: 200;
-    }
-    #email{
-        font-size: 0.85em;
-        font-weight: 100;
-    }
+  #wrapper--hero {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+  }
+  #profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  #user-name {
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
 
-    #social--list{
-        display: flex;
-        justify-content: flex-start;
-        column-gap: 0.85em;
-        flex-wrap: wrap;
-        font-size: 0.9em;
-    }
-    
-.line-break{
+  #bio {
+    font-weight: 200;
+  }
+  #education {
+    font-weight: 200;
+  }
+  #email {
+    font-size: 0.85em;
+    font-weight: 100;
+  }
+
+  #social--list {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 0.85em;
+    flex-wrap: wrap;
+    font-size: 0.9em;
+  }
+
+  .line-break {
     background-color: var(--mainBorderColor);
     height: 1px;
-}
   }
+  .card--project {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid var(--mainBorderColor);
+  }
+}
