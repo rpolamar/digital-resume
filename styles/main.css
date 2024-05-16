@@ -44,6 +44,7 @@ a {
 li {
   color: var(--secondaryTextColor);
   margin: 20px 0;
+  list-style-type: circle;
 }
 #container--main {
   max-width: 800px;
